@@ -114,3 +114,6 @@ bot.on("message", async (msg) => {
 // === ROTA TESTE WEBHOOK ===
 app.get("/", (req, res) => res.send("🤖 Bot Posta Pra Mim ativo e rodando!"));
 app.listen(3000, () => console.log("🚀 Servidor ativo na porta 3000."));
+export default function handler(req, res) {
+  res.status(200).json({ message: "Bot Posta Pra Mim rodando com sucesso!" });
+}
