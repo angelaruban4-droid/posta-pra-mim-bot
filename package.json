@@ -1,0 +1,17 @@
+{
+  "name": "posta-pra-mim-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "googleapis": "^133.0.0",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
+
